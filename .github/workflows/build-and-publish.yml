@@ -1,4 +1,4 @@
-name: Deploy_LaLigaTable
+name: Laliga_Deploy
 
 on:
   push:
