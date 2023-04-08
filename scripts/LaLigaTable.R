@@ -1,15 +1,25 @@
+#!/usr/bin/R
+
+# Loading the necessary R packages
+
+Rpackages=c("polite","rvest","kableExtra","gt","svglite")
+
+for (i in Rpackages){install.packages(i)} 
+
 library(polite)
 library(tidyverse)
 library(rvest)
 library(kableExtra)
 library(gt)
+library(svglite)
+
 
 url <- 'https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga'
 
 
 session = bow(user_agent = "laliga-Table-Scrape", url)
 
-LaLigaTable <- scrape(session) %>% html_nodes("table.wikitable:nth-child(30)") %>% html_table()
+LaLigaTable <- scrape(session) %>% html_nodes("table.wikitable:nth-child(34)") %>% html_table()
 
 
 LaLigaTable  <- as.data.frame(LaLigaTable)
