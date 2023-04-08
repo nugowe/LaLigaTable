@@ -1,4 +1,4 @@
-name: Dlaligaoy EnglishPremierLeagueTable
+name: Deploy_LaLigaTable
 
 on:
   push:
