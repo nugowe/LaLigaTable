@@ -1,6 +1,6 @@
 FROM rocker/tidyverse As R-code
 
-WORKDIR /opt/laliga
+WORKDIR /opt/epl
 
 ENV TZ="America/Chicago"
 
@@ -15,7 +15,7 @@ RUN apt-get install -yq tzdata && \
     ln -fs /usr/share/zoneinfo/America/Chicago /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata
     
-RUN bash /opt/laliga/scripts/build.sh
+RUN bash /opt/epl/scripts/build.sh
 
     
 FROM nginx:alpine AS nginx-code
@@ -26,11 +26,11 @@ RUN chown -R nginx:nginx /usr/share/
 
 RUN mkdir /usr/share/data && mkdir /usr/share/data/www
 
-COPY --from=R-code /opt/nginx .
+COPY --from=R-code /opt/epl .
 
-COPY --from=R-code /opt/nginx/laligaTable.html /usr/share/data/www
+COPY --from=R-code /opt/epl/LaLigaTable.html /usr/share/data/www
 
-RUN mv /usr/share/data/www/laligaTable.html /usr/share/data/www/index.html
+RUN mv /usr/share/data/www/LaLigaTable.html /usr/share/data/www/index.html
 
 RUN mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.ORIGINAL && touch /etc/nginx/nginx.conf 
 
