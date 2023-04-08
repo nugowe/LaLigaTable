@@ -26,9 +26,9 @@ RUN chown -R nginx:nginx /usr/share/
 
 RUN mkdir /usr/share/data && mkdir /usr/share/data/www
 
-COPY --from=R-code /opt/laliga .
+COPY --from=R-code /opt/nginx .
 
-COPY --from=R-code /opt/laliga/laligaTable.html /usr/share/data/www
+COPY --from=R-code /opt/nginx/laligaTable.html /usr/share/data/www
 
 RUN mv /usr/share/data/www/laligaTable.html /usr/share/data/www/index.html
 
