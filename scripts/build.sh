@@ -4,5 +4,5 @@ set -e
 
 echo "Running R script"
 
-Rscript /opt/laliga/scripts/LaLigaTable.R 
+Rscript /opt/epl/scripts/LaLigaTable.R 
 
