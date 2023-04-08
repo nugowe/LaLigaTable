@@ -67,7 +67,7 @@ logolist <- list()
 
   for(k in 1:20){
     
-    for(i in LaLigaTable$Team[k]){
+    for(i in LaLigaTable$Teams[k]){
       
       if(i == "Barcelona"){
         logolist <- append(logolist, logos[1])
