@@ -137,7 +137,7 @@ gt(LaLigaTable) %>%
   tab_header(
     
     title = html("<img src='https://upload.wikimedia.org/wikipedia/commons/b/bb/LaLiga_Santander_logo_%28stacked%29.svg' style='height:110px'>"),
-    subtitle = html("<div style='font-size: 11px; background-color: #F1F1F1; color:black;  font-style:italic'>
+    subtitle = html("<div style='font-size: 11px; background-color: #FFEFD5; color:black;  font-style:italic'>
     <img src='https://assets.laliga.com/squad/2022/t178/p56764/256x278/p56764_t178_2022_1_001_000.png' class='topstriker' style='height:100px'; 
     <div>
     <img src='https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg' class='topstrikerflag' style='height:90px;' 
