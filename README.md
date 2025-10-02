@@ -7,6 +7,7 @@ TODO:
 <img width="330" height="290" alt="Image" src="https://github.com/user-attachments/assets/8b92e92f-1a66-463a-99be-d1d8c1d1ed41" />
 <img width="800" height="800" alt="Image" src="https://github.com/user-attachments/assets/1aabebbd-2f71-487a-b44c-730d78b61691" />
 <img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/4b8834c6-8830-4e37-aaad-e631dcb3250e" />
+<img width="183" height="42" alt="Image" src="https://github.com/user-attachments/assets/ef3c7264-e59b-4167-8a9d-32c577dab203" />
 
 
 [fidelitylogo.html](https://github.com/user-attachments/files/22663586/fidelitylogo.html)
