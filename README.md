@@ -4,7 +4,9 @@ TODO:
 1) Github Actions to automate the scraping and production of the final artifact. -- Done
 2) Containerization of the Table Content -- Done
 3) Kubernetes Container orchestration and TLS Binding on an nginx Load Balancer.
-
+<img width="1256" height="1102" alt="Image" src="https://github.com/user-attachments/assets/fa9d4339-7116-4ecb-8c03-a4b74c94a6b6" />
+<img width="800" height="800" alt="Image" src="https://github.com/user-attachments/assets/1aabebbd-2f71-487a-b44c-730d78b61691" />
+<img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/4b8834c6-8830-4e37-aaad-e631dcb3250e" /
 
 !![Screenshot from 2023-04-09 00-05-40](https://user-images.githubusercontent.com/25004712/230755473-6a21a413-5ad8-4bb2-9b3f-e7764d059ffa.png)
 
