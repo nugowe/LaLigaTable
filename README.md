@@ -6,7 +6,8 @@ TODO:
 3) Kubernetes Container orchestration and TLS Binding on an nginx Load Balancer.
 <img width="330" height="290" alt="Image" src="https://github.com/user-attachments/assets/8b92e92f-1a66-463a-99be-d1d8c1d1ed41" />
 <img width="800" height="800" alt="Image" src="https://github.com/user-attachments/assets/1aabebbd-2f71-487a-b44c-730d78b61691" />
-<img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/4b8834c6-8830-4e37-aaad-e631dcb3250e" /
+<img width="1200" height="1200" alt="Image" src="https://github.com/user-attachments/assets/4b8834c6-8830-4e37-aaad-e631dcb3250e" />
+[fidelitylogo.html](https://github.com/user-attachments/files/22663586/fidelitylogo.html)
 
 !![Screenshot from 2023-04-09 00-05-40](https://user-images.githubusercontent.com/25004712/230755473-6a21a413-5ad8-4bb2-9b3f-e7764d059ffa.png)
 
